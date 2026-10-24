@@ -1,0 +1,15 @@
+{
+  "name": "spath-sponsor-finder",
+  "description": "Free UK visa sponsor search from SPath Global.",
+  "owner": {
+    "name": "Richard Ogundele",
+    "url": "https://spathglobal.com"
+  },
+  "plugins": [
+    {
+      "name": "sponsor-finder",
+      "source": "./",
+      "description": "Search and check employers on the UK register of licensed visa sponsors."
+    }
+  ]
+}

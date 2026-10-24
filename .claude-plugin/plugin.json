@@ -1,0 +1,24 @@
+{
+  "name": "sponsor-finder",
+  "displayName": "Sponsor Finder",
+  "version": "1.0.0",
+  "description": "Search and check employers on the UK Home Office register of licensed visa sponsors. Free, read-only, from SPath Global.",
+  "author": {
+    "name": "Richard Ogundele",
+    "url": "https://spathglobal.com"
+  },
+  "homepage": "https://spathglobal.com/finduksponsors",
+  "repository": "https://github.com/richardogundele/sponsor-finder",
+  "license": "MIT",
+  "keywords": ["visa-sponsorship", "skilled-worker", "uk-jobs", "job-search", "sponsor-licence"],
+  "icon": "./assets/icon.png",
+  "supportUrl": "https://spathglobal.com/plugin-support",
+  "privacyPolicyUrl": "https://spathglobal.com/privacy",
+  "termsOfServiceUrl": "https://spathglobal.com/terms",
+  "mcpServers": {
+    "spath-sponsor-search": {
+      "type": "http",
+      "url": "https://mdkorcgraconorwiflzf.supabase.co/functions/v1/sponsor-search-mcp"
+    }
+  }
+}
